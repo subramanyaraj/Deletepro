@@ -14,7 +14,7 @@ public class MagentoTest {
 	public void testrun() {
 		
 		WebDriver driver=new FirefoxDriver();
-		// test12345678
+		// test123456781
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.magento.com");
