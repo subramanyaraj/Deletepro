@@ -13,7 +13,7 @@ public class MagentoTest {
 	public void testrun() {
 		
 		WebDriver driver=new ChromeDriver();
-		// test123
+		// test12345678
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.magento.com");
